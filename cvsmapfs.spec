@@ -1,5 +1,5 @@
 Summary:	Extension for CVS to handle links, permission and special files
-Summary(pl):	Rozszerzenie do CVS dodaj±ce obs³ugê linków, uprawnieñ, itp.
+Summary(pl):	Rozszerzenie do CVS dodaj±ce obs³ugê linków, uprawnieñ, itp
 Name:		cvsmapfs
 Version:	1.3
 Release:	6
