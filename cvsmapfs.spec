@@ -6,6 +6,7 @@ Release:	6
 License:	GPL
 Group:		Development/Tools
 Source0:	%{name}-%{version}.tar.gz
+# Source0-md5:	f846c920598dd018a8af64d7edb04398
 # ftp://ftp.pn.com/pub/bb/cvsmapfs/  (20010927 - host not found)
 Patch0:		%{name}-config.patch
 URL:		http://www.cvshome.org/dev/addoncvsmapfs.html
