@@ -8,7 +8,9 @@ Group:		Development/Tools
 Group(pl):	Programowanie/Narzêdzia
 Group(fr):	Development/Outils
 Source0:	cvsmapfs-%{version}.tar.gz
+# ftp://ftp.pn.com/pub/bb/cvsmapfs/  (20010927 - host not found)
 Patch0:		cvsmapfs-config.patch
+URL:		http://www.cvshome.org/dev/addoncvsmapfs.html
 Requires:	cvs
 Requires:	perl
 BuildArch:	noarch
@@ -17,6 +19,11 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 CVS cannot handle normally symbolic links or special device. This
 program extends CVS to handle this problem.
+
+%description -l pl
+CVS nie mo¿e normalnie obs³ugiwaæ symbolicznych dowi±zañ ani urz±dzeñ
+specjalnych. Ten program rozszerza CVS, aby radzi³ sobie z tymi
+problemami.
 
 %prep
 %setup -q -c
