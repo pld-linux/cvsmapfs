@@ -5,11 +5,12 @@ Version:	1.3
 Release:	6
 License:	GPL
 Group:		Development/Tools
-Group(pl):	Programowanie/Narzêdzia
+Group(de):	Entwicklung/Werkzeuge
 Group(fr):	Development/Outils
-Source0:	cvsmapfs-%{version}.tar.gz
+Group(pl):	Programowanie/Narzêdzia
+Source0:	%{name}-%{version}.tar.gz
 # ftp://ftp.pn.com/pub/bb/cvsmapfs/  (20010927 - host not found)
-Patch0:		cvsmapfs-config.patch
+Patch0:		%{name}-config.patch
 URL:		http://www.cvshome.org/dev/addoncvsmapfs.html
 Requires:	cvs
 Requires:	perl
