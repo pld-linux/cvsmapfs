@@ -5,9 +5,6 @@ Version:	1.3
 Release:	6
 License:	GPL
 Group:		Development/Tools
-Group(de):	Entwicklung/Werkzeuge
-Group(fr):	Development/Outils
-Group(pl):	Programowanie/Narzêdzia
 Source0:	%{name}-%{version}.tar.gz
 # ftp://ftp.pn.com/pub/bb/cvsmapfs/  (20010927 - host not found)
 Patch0:		%{name}-config.patch
