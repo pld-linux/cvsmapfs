@@ -1,0 +1,9 @@
+diff -r -u ../cvsmapfs-orig/cvsmapfs ./cvsmapfs
+--- ../cvsmapfs-orig/cvsmapfs	Wed Oct  9 01:26:42 1996
++++ ./cvsmapfs	Wed Jul  2 08:57:13 1997
+@@ -1,4 +1,4 @@
+-#!/depot/perl-5.003/bin/perl
++#!/usr/bin/perl
+ 
+ #
+ #  cvsmapfs - Maps arbitrary filesystem in and out of form that cvs can handle.
