@@ -11,7 +11,7 @@ Source0:	%{name}-%{version}.tar.gz
 Patch0:		%{name}-config.patch
 URL:		http://www.cvshome.org/dev/addoncvsmapfs.html
 Requires:	cvs
-Requires:	perl
+Requires:	perl-base
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -27,8 +27,6 @@ problemami.
 %prep
 %setup -q -c
 %patch
-
-%build
 
 %install
 rm -rf $RPM_BUILD_ROOT
