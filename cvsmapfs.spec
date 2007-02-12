@@ -1,5 +1,5 @@
 Summary:	Extension for CVS to handle links, permission and special files
-Summary(pl):	Rozszerzenie do CVS dodaj±ce obs³ugê linków, uprawnieñ, itp
+Summary(pl.UTF-8):   Rozszerzenie do CVS dodajÄ…ce obsÅ‚ugÄ™ linkÃ³w, uprawnieÅ„, itp
 Name:		cvsmapfs
 Version:	1.3
 Release:	6
@@ -19,9 +19,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 CVS cannot handle normally symbolic links or special device. This
 program extends CVS to handle this problem.
 
-%description -l pl
-CVS nie mo¿e normalnie obs³ugiwaæ symbolicznych dowi±zañ ani urz±dzeñ
-specjalnych. Ten program rozszerza CVS, aby radzi³ sobie z tymi
+%description -l pl.UTF-8
+CVS nie moÅ¼e normalnie obsÅ‚ugiwaÄ‡ symbolicznych dowiÄ…zaÅ„ ani urzÄ…dzeÅ„
+specjalnych. Ten program rozszerza CVS, aby radziÅ‚ sobie z tymi
 problemami.
 
 %prep
