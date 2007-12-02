@@ -10,7 +10,7 @@ Source0:	%{name}-%{version}.tar.gz
 # ftp://ftp.pn.com/pub/bb/cvsmapfs/  (20010927 - host not found)
 Patch0:		%{name}-config.patch
 URL:		http://www.cvshome.org/dev/addoncvsmapfs.html
-Requires:	cvs
+Requires:	cvs-client
 Requires:	perl-base
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
